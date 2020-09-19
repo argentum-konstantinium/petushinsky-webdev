@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(247, 234, 234);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(img/background.png);
+    background-attachment: fixed;
+    background-size: 70% 70%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    text-align: center;
+}
+h2, h3, h4, h5, h6 {
+    color: rgb(199, 135, 56);
+}
+a {
+    color: inherit;
+}
+h4 a {
+    opacity: 0.9;
+}
+h4 a:hover {
+    opacity: 1;
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 850px;
+}
+
+.navigation-menu {
+    display: none;
+}
+
+.navigation-menu__content {}
+
+.navigation-ul {}
+
+.parent-ul {}
+
+.navigation-ul__li {}
+
+.main-content {
+    max-width: 1030px;
+    padding: 0 20px 20px;
+    margin: 0 auto;
+}
+
+.section {
+    border: 1px solid #ffffff;
+    padding: 20px;
+    background: darkslategrey;
+    margin: 50px 0 50px;
+}
+
+.introduction {}
+
+.main-content__headline {
+    font-size: 35px;
+}
+
+.main-content__introduction {}
+
+.introduction-subtitle {
+    font-size: 30px;
+    font-weight: 1000;
+}
+
+.main-content__text {
+    font-size: 16px;
+    color: #ffffff;
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.introduction-text {}
+
+.subtitle {
+    margin-bottom: 30px;
+}
+
+.text-link {
+    color: rgb(186, 203, 152);
+    opacity: 0.9;
+    font-size: 18px;
+}
+
+.text-link:hover {
+    opacity: 1;
+    text-decoration: none;
+}
+.introduction-question {
+    display: flex;
+    align-items: center;
+    margin: 40px auto 40px;
+}
+.big-symbol {
+    margin-top: 5px;
+    height: 3px;
+    width: 20px;
+    display: block;
+    background: rgb(243, 177, 95);
+    margin-right: 10px;
+}
+
+.text-bold-big {
+    font-weight: 900;
+    font-size: 25px;
+    color: rgb(243, 177, 95);
+    line-height: 25px;
+}
+
+.education-guide {}
+
+.education-guide__text {
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.meme-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.section-subtitle {}
+
+.education-guide__introduction {}
+
+.education-guide__introduction-img {}
+
+.italic-text {}
+
+.education-guide__content {}
+
+.education-gude__subtitle-3 {}
+
+.education-guide__item {}
+
+.education-guide__subtitle-4 {}
+
+.education-guide__headline-link {}
+
+.education-guide__subtitle-3 {}
+
+.education-guide-ul {
+    
+}
+
+.li-text {
+    margin: 5px 0 0;
+}
+.education-guide-li {
+    margin-bottom: 15px;
+}
+
+.education-guide__ul {}
+
+.education-guide__li {}
+
+.education-guide__ul-link {}
